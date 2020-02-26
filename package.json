@@ -4,7 +4,9 @@
   "description": "Svelte study",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
     "mini-css-extract-plugin": "^0.9.0",
     "svelte-loader": "^2.13.6",
     "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "svelte": "^3.19.1"
